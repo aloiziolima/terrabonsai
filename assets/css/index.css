@@ -98,6 +98,13 @@ header {
     border-radius: 50px;
     max-height: 20em;
 }
+.foto-menor {
+    clear: both;
+    float: left;
+    padding: 1em;
+    border-radius: 50px;
+    max-height: 20em;
+}
 .portfolio {
         display: flex;
         flex-wrap: wrap;
