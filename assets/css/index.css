@@ -1,0 +1,243 @@
+/* PRETO FOSCO: 323231 - BRANCO AMARELADO: FAFFFC */
+html,body {
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #FAFFFC;
+    font-family: "Open Sans";
+}
+body {
+    display: block;
+    font-size: 100%;
+    line-height: 1.5;
+    -webkit-perspective: 6px;
+    perspective: 6px;
+    -webkit-perspective-origin: 50% 160px;
+    perspective-origin: 50% 160px;
+}
+footer {
+    background-color: #323231;
+    color: #FAFFFC;
+    padding: 0.5em;
+    position: relative;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    font-family: "Lato";
+    font-size: 0.8em;
+}
+header {
+    text-align: center;
+}
+.main {
+    padding: 2em;
+}
+.descricao-home {
+    float: left;
+    padding-left: 7em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 7em;
+    text-align: justify;
+    text-indent: 3em;
+    font-family: "Julius Sans One";
+    font-weight: 700;
+}
+.wrapper {
+    min-height: 87%;
+}
+/*
+.barra-contatos {
+    background-color: #323231;
+    float: left;
+}
+.barra-contatos a {
+    text-decoration: none;
+}
+*/
+.barra-principal {
+    position: relative;
+    text-align: center;
+    background-color: #323231;
+    height: 5em;
+}
+.logo {
+    height: 3em;
+    clear: both;
+    float: left;
+    padding: 1em;
+}
+.terrabonsai-180 {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+.paragrafo1, .paragrafo2 {
+    line-height: 2.5;
+    font-size: 0.9em;
+    color: #323231;
+    text-align: justify;
+    text-indent: 3em;
+}
+.paragrafo2 {
+    padding-bottom: 2em;
+}
+.foto-esquerda {
+    clear: both;
+    float: left;
+    padding: 2em;
+    border-radius: 50px;
+    max-height: 20em;
+}
+.foto-direita {
+    clear: both;
+    float: right;
+    padding: 2em;
+    border-radius: 50px;
+    max-height: 20em;
+}
+.portfolio {
+        display: flex;
+        flex-wrap: wrap;
+}
+.portfolio li {
+        background-color: #FAFFFC;
+        flex: 1 1 45%;
+        padding: 1em;
+        margin-right: 1em;
+        margin-bottom: 1em;
+}
+.portfolio p {
+    text-align: justify;
+}
+.portfolio img {
+        height: 12em;
+        max-width: 100%;
+        clear: both;
+        border-radius: 50px;
+        padding: 2%;
+        float: left;
+}
+.portfolio img:hover , .foto-esquerda:hover , .foto-direita:hover {
+    transform: scale(1.5);
+    transition: box-shadow 2s, transform 2s;
+    transition-delay: 2s, 0s;
+}
+.mapa {
+    overflow:auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.descricao-endereco {
+    text-align: justify;
+    font-family: "Julius Sans One";
+    font-weight: 700;
+    font-size: 100%;
+}
+
+@media (max-width: 600px) {
+    .main {
+        padding: 0;
+    }
+    .portfolio {
+        display: block;
+    }
+    .portfolio li {
+        padding: 0.1em;
+    }
+    .portfolio li figure p {
+        margin-left: 0%
+    }
+    .portfolio img {
+        max-width: 100%;
+        min-width: 100%;
+        border-radius: 30px;
+        padding: 0%;
+        margin-top: 10%;
+        float: none;
+    }
+    .descricao-home {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    .paragrafo1,
+    .paragrafo2 {
+        line-height: 2.5;
+        font-size: 0.8em;
+        padding: 2em;
+    }
+    .foto-esquerda,
+    .foto-direita {
+        max-width: 100%;
+        min-width: 100%;
+        border-radius: 30px;
+        padding: 0%;
+        margin-top: 10%;
+        float: none;
+    }
+    .estilos {
+        margin-left: 10%;
+    }
+    .portfolio img:hover , .foto-esquerda:hover , .foto-direita:hover {
+        transform: scale(1);
+    }
+    .descricao-endereco {
+        font-weight: 700;
+        font-size: 80%;
+        padding: 0.5em;
+    }
+}
+
+@media (max-width: 767px) {
+    .portfolio img:hover , .foto-esquerda:hover , .foto-direita:hover {
+        transform: scale(1);
+    }
+}
+
+/* SOMENTE ACIMA DE 1200 */
+@media not all and (max-width: 1200px) {
+    .paragrafo1, .paragrafo2 {
+        line-height: 3;
+        font-size: 0.9em;
+        padding: 3em;
+    }
+    .portfolio img:hover{
+        transform: scale(3);
+    }
+    .foto-esquerda:hover , .foto-direita:hover {
+        transform: scale(2);
+    }
+}
+
+@-webkit-keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
+@keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}
+@keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
+@-webkit-keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
+
