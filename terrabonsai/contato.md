@@ -29,7 +29,7 @@ permalink: /terrabonsai/contato
         </div>
         <div class="box">
             <a href="tel:+5531988987503">
-                <img src="../assets/images/Whatsapp.png" alt="telefone">
+                <img src="../assets/images/whatsapp.png" alt="telefone">
             </a>
             <a class="texto" href="tel:+5531988987503">(31)98898-7503</a>
         </div>
