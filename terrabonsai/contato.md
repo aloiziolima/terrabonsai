@@ -8,7 +8,7 @@ permalink: /terrabonsai/contato
     <div class="container">
         <form>
             <fieldset>
-            <input type=hidden name="destino" value="lima.aloizio@gmail.com">
+<!--            <input type=hidden name="destino" value="lima.aloizio@gmail.com">-->
 <!--            <input type=hidden name="enviado" value="http://www.seudominio.xxx.yy/enviado.htm">            -->
             <label for="nome">Nome completo</label>
             <input id="nome" type="text" name="nome" required autofocus pattern="[A-Za-z ']{4,}" title="O nome precisa ter pelo menos 4 caracteres" placeholder="Seu Nome">
