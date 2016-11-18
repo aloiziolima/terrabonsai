@@ -25,7 +25,7 @@ permalink: /terrabonsai/contato
             <a href="mailto:terrabonsai@gmail.com">
                 <img src="../assets/images/envelope.png" alt="email">
             </a>
-            <a class="texto" href="mailto:terrabonsai@gmail.com">terrabonsai@gmail.com</a>
+            <a class="texto" href="mailto:lima.aloizio@gmail.com">terrabonsai@gmail.com</a>
         </div>
         <div class="box">
             <a href="tel:+5531988987503">
