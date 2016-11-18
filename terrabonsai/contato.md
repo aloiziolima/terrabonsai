@@ -8,6 +8,8 @@ permalink: /terrabonsai/contato
     <div class="container">
         <form>
             <fieldset>
+            <input type=hidden name="destino" value="lima.aloizio@gmail.com">
+<!--            <input type=hidden name="enviado" value="http://www.seudominio.xxx.yy/enviado.htm">            -->
             <label for="nome">Nome completo</label>
             <input id="nome" type="text" name="nome" required autofocus pattern="[A-Za-z ']{4,}" title="O nome precisa ter pelo menos 4 caracteres" placeholder="Seu Nome">
             <label for="email">E-mail</label>
@@ -25,7 +27,7 @@ permalink: /terrabonsai/contato
             <a href="mailto:terrabonsai@gmail.com">
                 <img src="../assets/images/envelope.png" alt="email">
             </a>
-            <a class="texto" href="mailto:lima.aloizio@gmail.com">terrabonsai@gmail.com</a>
+            <a class="texto" href="mailto:terrabonsai@gmail.com">terrabonsai@gmail.com</a>
         </div>
         <div class="box">
             <a href="tel:+5531988987503">
